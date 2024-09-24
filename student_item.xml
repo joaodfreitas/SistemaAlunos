@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewStudentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Aluno - Área de Escolha"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewDateAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionado em: 01/01/2024"
+        android:textSize="14sp"
+        android:textColor="#888888" />
+</LinearLayout>
